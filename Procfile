@@ -1,1 +1,1 @@
-worker: python3 -m FantaProfBot
+worker: python3 -m fantaprofbot
