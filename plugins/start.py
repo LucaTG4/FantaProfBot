@@ -21,6 +21,9 @@ benvenuto nel FantaProfBot.
                          ]
                      ),
                      )
-    
-if data == 'classifica':
-  app.edit_message_text(chat_id, message_id, '''i''')
+
+@Client.on_callback_query()
+def callback(app, callback_query):
+    data = callback_query.data
+    if data == 'classifica':
+        app.edit_message_text(chat_id, message_id, '''i''')
