@@ -1,0 +1,10 @@
+Pyrogram==1.2.4
+TgCrypto
+asyncio==3.4.3
+aiohttp==3.6.2
+beautifulsoup4
+emoji
+gitpython
+heroku3
+gpytranslate
+gtts
